@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
           <p className="c-secondary mt-4 max-w-lg text-lg sm:text-xl">
             I&rsquo;m a self-taught talented and skilled developer, building web
-            in Javascript ecosystem since 2019.
+            in PHP,Python,Javascript ecosystem since 2019.
           </p>
           <div className="mt-10 flex gap-3 text-sm min-[500px]:gap-5 sm:mt-11 sm:text-base">
             <Link

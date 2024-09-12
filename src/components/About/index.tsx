@@ -27,12 +27,12 @@ const cards = [
       </svg>
     ),
     name: "Experience",
-    value: "2 + Years",
+    value: "13 + Years",
   },
   {
     icon: <BriefcaseIcon strokeWidth={1.25} />,
     name: "Completed",
-    value: "40 + Projects",
+    value: "13 + Projects",
   },
   {
     icon: (
@@ -53,7 +53,7 @@ const cards = [
       </svg>
     ),
     name: "Available",
-    value: "30 hours a week",
+    value: "40 hours a week",
   },
 ];
 
@@ -95,56 +95,41 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="c-secondary my-10 text-justify text-xl leading-loose tracking-wide">
-            My journey started{" "}
-            <b className="text-zinc-700 dark:text-zinc-200">in 2019</b> with
-            learning <b className="text-orange-500">html</b>{" "}
-            <b className="text-css">css</b>{" "}
-            <b className="text-yellow-500">javascript</b> on my own and worked a
-            lot on{" "}
-            <b className="bg-gradient-to-tr from-pink-500 to-blue-500 bg-clip-text text-transparent">
-              UI/UX design
-            </b>{" "}
-            with <b className="text-gql">scss</b>.
-            <div className="h-7" />
-            <b className="text-zinc-700 dark:text-zinc-200">In 2020</b>, my
-            serious web development career began with{" "}
-            <b className="text-cyan-500">Reactjs</b>,{" "}
-            <b className="text-zinc-700 dark:text-zinc-200">Nextjs</b> and{" "}
-            <b className="text-zinc-700 dark:text-zinc-200">
-              <span className="text-mongodb">M</span>
-              <span className="text-500">E</span>
-              <span className="text-cyan-500">R</span>
-              <span className="text-nodejs">N</span> Stack
-            </b>
-            .
-            <div className="h-7" />
-            I&rsquo;m a big{" "}
-            <b className="text-yellow-500">javascript enthusiast</b> and built
-            my skills on top of it. I always try to be up-to-date with
-            what&rsquo;s happening in its{" "}
-            <b className="text-yellow-500">ecosystem</b>. I explore & try new
-            features, technologies that looks interesting and helpful. If i find
-            a technology that feels futuristic and introduces better solutions
-            for common problems, most importantly gives the best{" "}
-            <b className="text-zinc-600 dark:text-zinc-300">DX</b> and great
-            performance, I get so passionate to learn and extend my skillset.
-            <br />
-            So far in my main gear, I have <b className="text-ts">Typescript</b>
-            , <b className="text-zinc-700 dark:text-zinc-200">Nextjs</b>,{" "}
-            <b className="text-nestjs">Nestjs</b>,{" "}
-            <b className="text-gql">Graphql</b> by those factors. I&rsquo;m
-            always exploring and mastering my skills to{" "}
-            <span
-              className="text-zinc-700 
-            [text-shadow:0_0_5px_rgba(0,0,0,0.5)] 
-            dark:text-zinc-100 
-            dark:[text-shadow:0_0_5px_white]"
-            >
-              enjoy developing
-            </span>{" "}
-            better than yesterday.
-          </div>
+          <div className="text-gray-800 dark:text-gray-200 my-10 text-justify text-xl leading-loose tracking-wide">
+          My journey into programming began{" "}
+          <b className="text-gray-700 dark:text-gray-300">in 4th grade of elementary school</b> 
+          when I became fascinated with games like <b className="text-orange-500">Point Blank</b> 
+          and <b className="text-yellow-500">Lost Saga</b>. Spending time in internet cafes, 
+          I was drawn to how online game cheats were made, which led me to create my own using 
+          <b className="text-blue-500">C</b> and tools like <b className="text-green-500">Dev C++</b> 
+          and <b className="text-indigo-500">Visual Studio</b>.
+          <div className="h-7" />
+          Shortly after, I got involved in <b className="text-cyan-500">Pentesting</b>, 
+          joining communities both locally and internationally. However, an unfortunate event 
+          led me to step away from this world until I graduated elementary school.
+          <div className="h-7" />
+          <b className="text-gray-700 dark:text-gray-300">In middle school</b>, I started 
+          learning <b className="text-blue-500">HTML</b>, <b className="text-blue-400">CSS</b>, 
+          <b className="text-yellow-500">JavaScript</b>, and <b className="text-purple-500">PHP</b>. 
+          I then transitioned into using the <b className="text-red-500">CodeIgniter</b> 
+          PHP framework.
+          <div className="h-7" />
+          During <b className="text-gray-700 dark:text-gray-300">vocational school</b>, 
+          I explored more modern languages like <b className="text-green-500">NodeJS</b> 
+          and worked with databases like <b className="text-blue-600">PostgreSQL</b> alongside 
+          <b className="text-teal-500">MySQL</b>. I also gained skills in networking and earned a 
+          <b className="text-pink-500">Mikrotik Basic Certification</b>, though it may now be expired.
+          <div className="h-7" />
+          <b className="text-gray-700 dark:text-gray-300">In college</b>, I revisited 
+          programming fundamentals with <b className="text-blue-500">C++</b> and started exploring 
+          modern technologies like <b className="text-green-400">VueJS</b>, 
+          <b className="text-orange-500">Svelte</b>, <b className="text-blue-500">React</b>, 
+          <b className="text-indigo-500">NextJS</b>, <b className="text-green-500">Python</b>, 
+          and <b className="text-purple-500">AI</b>.
+          <div className="h-7" />
+          I also enjoy working with the <b className="text-cyan-600">MERN stack</b> and am 
+          continually expanding my knowledge in various other technologies.
+        </div>
           <div className="flex justify-start">
             <a href={resume} target="_blank" rel="noreferrer" className="w-fit">
               <button className="btn btn-darker flex items-center space-x-3 rounded-2xl py-6 px-8 font-medium">

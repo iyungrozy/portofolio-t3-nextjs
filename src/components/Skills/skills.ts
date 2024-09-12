@@ -30,6 +30,7 @@ import {
   trpc,
   ts,
   typeorm,
+  laravel,
 } from "@components/icons/pl";
 import type { SkillType } from "src/types/index.d";
 import { SkillLevel, Stacks } from "src/types/index.d";
@@ -41,6 +42,7 @@ enum Categories {
   "Api Integration" = "Api Integration",
   "Databases" = "Databases",
   "Design tools" = "Design tools",
+  "AI & Machine Learning" = "AI & Machine Learning", // New category for AI
   "Others" = "Others",
 }
 
@@ -108,13 +110,13 @@ export const skills: SkillType[] = [
     category: Categories["Backend libraries & frameworks"],
     stacks: [Stacks.MERN],
   },
-  // {
-  //   name: "Graphql",
-  //   level: SkillLevel.Intermediate,
-  //   icon: gql,
-  //   category: Categories["Backend libraries & frameworks"],
-  //   stacks: [Stacks.Hyperbeast],
-  // },
+  {
+    name: "Laravel",
+    level: SkillLevel.Intermediate,
+    icon: laravel, // Add appropriate icon for Laravel
+    category: Categories["Backend libraries & frameworks"],
+    stacks: [],
+  },
   {
     name: "Strapi CMS",
     level: SkillLevel.Intermediate,
@@ -235,6 +237,13 @@ export const skills: SkillType[] = [
     stacks: [Stacks.MERN],
   },
   {
+    name: "Sqlite",
+    level: SkillLevel.Intermediate,
+    icon: sqlite,
+    category: Categories.Databases,
+    stacks: [],
+  },
+  {
     name: "Redis",
     level: SkillLevel.Basic,
     icon: redis,
@@ -263,18 +272,32 @@ export const skills: SkillType[] = [
     stacks: [],
   },
   {
-    name: "Sqlite",
+    name: "Jupyter Notebook",
     level: SkillLevel.Intermediate,
-    icon: sqlite,
-    category: Categories.Databases,
+    icon: laravel, // Add appropriate icon for Jupyter
+    category: Categories["AI & Machine Learning"],
     stacks: [],
   },
   {
-    name: "Postgresql",
+    name: "C++",
+    level: SkillLevel.Advanced,
+    icon: laravel, // Add appropriate icon for C++
+    category: Categories["Programming languages"],
+    stacks: [],
+  },
+  {
+    name: "PHP",
     level: SkillLevel.Intermediate,
-    icon: pglogo,
-    category: Categories.Databases,
-    stacks: [Stacks.Hyperbeast],
+    icon: laravel, // Add appropriate icon for PHP
+    category: Categories["Programming languages"],
+    stacks: [],
+  },
+  {
+    name: "CodeIgniter",
+    level: SkillLevel.Intermediate,
+    icon: laravel, // Add appropriate icon for CodeIgniter
+    category: Categories["Backend libraries & frameworks"],
+    stacks: [],
   },
 ];
 

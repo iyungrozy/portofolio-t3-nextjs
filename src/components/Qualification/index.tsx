@@ -18,48 +18,95 @@ export type WorkType = {
 
 const experience: WorkType[] = [
   {
-    title: "Full-Stack Web Developer",
-    company: "UNIIT Slovakia, Remote full-time",
+    title: "Student",
+    company: "Elementary School",
     date: {
-      start: "2023 Apr",
+      start: "2009",
+      end: "2015",
+    },
+  },
+  {
+    title: "Freelance Programmer",
+    company: "Self-Employed",
+    date: {
+      start: "2012",
       end: "Present",
     },
   },
   {
-    title: "Full-Stack Web Developer",
-    company: "Freelancing",
+    title: "Pentester",
+    company: "Various Communities (Local & International)",
     date: {
-      start: "2022 Oct",
+      start: "2012",
+      end: "2013",
+    },
+  },
+  {
+    title: "Student",
+    company: "Junior High School",
+    date: {
+      start: "2015",
+      end: "2018",
+    },
+  },
+  {
+    title: "Web Developer",
+    company: "Freelancing (Middle School)",
+    date: {
+      start: "2014",
+      end: "2017",
+    },
+  },
+  {
+    title: "Student",
+    company: "Vocational School (Computer Network Engineering)",
+    date: {
+      start: "2018",
+      end: "2021",
+    },
+  },
+  {
+    title: "Web Developer",
+    company: "Freelancing (High School)",
+    date: {
+      start: "2017",
+      end: "2020",
+    },
+  },
+  {
+    title: "Mikrotik Certified Network Specialist",
+    company: "Vocational School",
+    date: {
+      start: "2017",
+      end: "2020",
+    },
+  },
+  {
+    title: "Student",
+    company: "University (Computer Science)",
+    date: {
+      start: "2021",
       end: "Present",
     },
   },
   {
-    title: "Lead Frontend Engineer",
-    company: "Tinfis Global",
-    site: "tinfis.uz",
+    title: "Full-Stack Developer",
+    company: "Various Freelance Projects",
     date: {
-      start: "2022 Feb",
-      end: "2022 Oct",
+      start: "2020",
+      end: "Present",
     },
   },
   {
-    title: "Lead Frontend Engineer",
-    company: "Napa Automotive",
-    site: "napaautomotive.uz",
+    title: "Programming Mentor",
+    company: "Freelance",
     date: {
-      start: "2021 Dec",
-      end: "2022 March",
+      start: "2021",
+      end: "Present",
     },
-  },
-  {
-    title: "Frontend Web Developer",
-    company: "Radiomer UZ",
-    date: {
-      start: "2021 Apr",
-      end: "2021 Aug",
-    },
-  },
+  }
 ];
+
 
 const Qualification = () => {
   const certificates = api.certificate.getAll.useQuery();
