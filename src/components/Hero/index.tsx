@@ -44,7 +44,7 @@ const Hero = () => {
               dark:from-zinc-400 dark:to-zinc-600 
               sm:text-2xl"
             >
-              Asilbek Anvarbekov
+              Iyung Fachrur Rozi
             </p>
           </div>
           <p className="c-secondary mt-4 max-w-lg text-lg sm:text-xl">
