@@ -69,7 +69,7 @@ const Header = () => {
               href="/"
               className="hover:text-gradient text-xl font-semibold"
             >
-              HYPERBEAST
+              Honjoo
             </Link>
             {/* <div className="relative aspect-square h-full">
               <EarthCanvas />
